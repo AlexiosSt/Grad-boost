@@ -19,3 +19,4 @@ Just run it with:
 python prediction_interval.py
 ~~~
 Make sure you have installed `numpy`, `matplotlib` and `scikit-learn` packages on your system! 
+You can do this with `conda install` or `pip install`. Start with `conda` I'd say!
