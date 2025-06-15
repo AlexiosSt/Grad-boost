@@ -1,0 +1,12 @@
+# Prediction Intervals for Gradient Boosting Regression
+
+This project follows closely the [example](https://scikit-learn.org/stable/auto_examples/ensemble/plot_gradient_boosting_quantile.html#sphx-glr-auto-examples-ensemble-plot-gradient-boosting-quantile-py) provided by `Scikit-learn`!
+
+The project shows how quantile regression can be used to create prediction intervals.
+
+## Code structure
+
+We start by generating some random input, following a function `$f(x)=xsin(x)$`, with a random noise term that follows a centered 
+log-normal distribution.
+
+We then fit gradient boosting models.
