@@ -6,7 +6,7 @@ The project shows how quantile regression can be used to create prediction inter
 
 ## Code structure
 
-We start by generating some random input, following a function `$f(x)=xsin(x)$`, with a random noise term that follows a centered 
+We start by generating some random input, following a function $f(x)=xsin(x)$, with a random noise term that follows a centered 
 log-normal distribution.
 
 We then fit gradient boosting models trained with the quantile loss and alpha=0.05, 0.5, 0.95.
