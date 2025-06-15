@@ -10,3 +10,12 @@ We start by generating some random input, following a function `$f(x)=xsin(x)$`,
 log-normal distribution.
 
 We then fit gradient boosting models trained with the quantile loss and alpha=0.05, 0.5, 0.95.
+
+## How to run it
+
+Just run it with:
+~~~
+python prediction_interval.py
+~~~
+
+Make sure you have installed `numpy`, `matplotlib and `scikit-learn` packages on your system! 
